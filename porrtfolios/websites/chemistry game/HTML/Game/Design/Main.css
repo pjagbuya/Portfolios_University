@@ -1,0 +1,135 @@
+body{
+	background-color:#314570;
+}
+#periodic{
+	position:relative;
+	left:40px;
+	z-index:1;
+}
+	/*Period 1*/
+.e1{background-color:white;height:42px;width:48px;position:absolute;top:12px;left:50px;z-index:3;opacity:0;}.e1:hover{opacity:0.5;cursor:pointer;}.e1:active{background-color:red;opacity:0.75;cursor:pointer;}				
+.e2{background-color:white;height:42px;width:48px;position:absolute;top:12px;left:918px;z-index:2;opacity:0;}.e2:hover{opacity:0.5;cursor:pointer;}.e2:active{background-color:red;opacity:0.75;cursor:pointer;}	
+	/*Period 2*/
+.e3{background-color:white;height:42px;width:48px;position:absolute;top:55px;left:50px;z-index:2;opacity:0;}.e3:hover{opacity:0.5;cursor:pointer;}.e3:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e4{background-color:white;height:42px;	width:48px;position:absolute;top:55px;left:100px;z-index:2;opacity:0;}.e4:hover{opacity:0.5;cursor:pointer;}.e4:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e5{background-color:white;height:42px;	width:48px;position:absolute;top:55px;left:662px;z-index:2;opacity:0;}.e5:hover{opacity:0.5;cursor:pointer;}.e5:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e6{background-color:white;height:42px;width:48px;position:absolute;top:55px;left:713px;z-index:2;opacity:0;}.e6:hover{opacity:0.5;cursor:pointer;}.e6:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e7{background-color:white;height:42px;width:48px;position:absolute;top:55px;left:764px;z-index:2;opacity:0;}.e7:hover{opacity:0.5;cursor:pointer;}.e7:active{background-color:red;opacity:0.75;cursor:pointer;}
+.e8{background-color:white;height:42px;width:48px;position:absolute;top:55px;left:815px;z-index:2;opacity:0;}.e8:hover{opacity:0.5;cursor:pointer;}.e8:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e9{background-color:white;height:42px;width:48px;position:absolute;top:55px;left:866px;z-index:2;opacity:0;}.e9:hover{opacity:0.5;cursor:pointer;}.e9:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e10{background-color:white;height:42px;width:48px;position:absolute;top:55px;left:917px;z-index:2;opacity:0;}.e10:hover{opacity:0.5;cursor:pointer;}.e10:active{background-color:red;opacity:0.75;cursor:pointer;}	
+	/*Period 3*/
+.e11{background-color:white;height:42px;width:48px;position:absolute;top:98px;left:51px;z-index:2;opacity:0;}.e11:hover{opacity:0.5;cursor:pointer;}.e11:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e12{background-color:white;height:42px;width:48px;position:absolute;top:98px;left:102px;z-index:2;opacity:0;}.e12:hover{opacity:0.5;cursor:pointer;}.e12:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e13{background-color:white;height:42px;width:48px;position:absolute;top:98px;left:662px;z-index:2;opacity:0;}.e13:hover{opacity:0.5;cursor:pointer;}.e13:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e14{background-color:white;height:42px;width:48px;position:absolute;top:98px;left:713px;z-index:2;opacity:0;}.e14:hover{opacity:0.5;cursor:pointer;}.e14:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e15{background-color:white;height:42px;width:48px;position:absolute;top:98px;left:764px;z-index:2;opacity:0;}.e15:hover{opacity:0.5;cursor:pointer;}.e15:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e16{background-color:white;height:42px;width:48px;position:absolute;top:98px;left:815px;z-index:2;opacity:0;}.e16:hover{opacity:0.5;cursor:pointer;}.e16:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e17{background-color:white;height:42px;width:48px;position:absolute;top:98px;left:866px;z-index:2;opacity:0;}.e17:hover{opacity:0.5;cursor:pointer;}.e17:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e18{background-color:white;height:42px;width:48px;position:absolute;top:98px;left:917px;z-index:2;opacity:0;}.e18:hover{opacity:0.5;cursor:pointer;}.e18:active{background-color:red;opacity:0.75;cursor:pointer;}	
+	/*Period 4*/
+.e19{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:51px;z-index:2;opacity:0;}.e19:hover{opacity:0.5;cursor:pointer;}.e19:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e20{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:102px;z-index:2;opacity:0;}.e20:hover{opacity:0.5;cursor:pointer;}.e20:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e21{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:153px;z-index:2;opacity:0;}.e21:hover{opacity:0.5;cursor:pointer;}.e21:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e22{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:204px;z-index:2;opacity:0;}.e22:hover{opacity:0.5;cursor:pointer;}.e22:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e23{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:255px;z-index:2;opacity:0;}.e23:hover{opacity:0.5;cursor:pointer;}.e23:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e24{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:306px;z-index:2;opacity:0;}.e24:hover{opacity:0.5;cursor:pointer;}.e24:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e25{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:357px;z-index:2;opacity:0;}.e25:hover{opacity:0.5;cursor:pointer;}.e25:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e26{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:408px;z-index:2;opacity:0;}.e26:hover{opacity:0.5;cursor:pointer;}.e26:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e27{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:459px;z-index:2;opacity:0;}.e27:hover{opacity:0.5;cursor:pointer;}.e27:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e28{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:510px;z-index:2;opacity:0;}.e28:hover{opacity:0.5;cursor:pointer;}.e28:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e29{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:561px;z-index:2;opacity:0;}.e29:hover{opacity:0.5;cursor:pointer;}.e29:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e30{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:612px;z-index:2;opacity:0;}.e30:hover{opacity:0.5;cursor:pointer;}.e30:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e31{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:663px;z-index:2;opacity:0;}.e31:hover{opacity:0.5;cursor:pointer;}.e31:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e32{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:714px;z-index:2;opacity:0;}.e32:hover{opacity:0.5;cursor:pointer;}.e32:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e33{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:765px;z-index:2;opacity:0;}.e33:hover{opacity:0.5;cursor:pointer;}.e33:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e34{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:816px;z-index:2;opacity:0;}.e34:hover{opacity:0.5;cursor:pointer;}.e34:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e35{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:867px;z-index:2;opacity:0;}.e35:hover{opacity:0.5;cursor:pointer;}.e35:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e36{background-color:white;height:42px;width:48px;position:absolute;top:141px;left:918px;z-index:2;opacity:0;}.e36:hover{opacity:0.5;cursor:pointer;}.e36:active{background-color:red;opacity:0.75;cursor:pointer;}	
+	/*Period 5*/
+.e37{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:51px;z-index:2;opacity:0;}.e37:hover{opacity:0.5;cursor:pointer;}.e37:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e38{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:102px;z-index:2;opacity:0;}.e38:hover{opacity:0.5;cursor:pointer;}.e38:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e39{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:153px;z-index:2;opacity:0;}.e39:hover{opacity:0.5;cursor:pointer;}.e39:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e40{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:204px;z-index:2;opacity:0;}.e40:hover{opacity:0.5;cursor:pointer;}.e40:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e41{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:255px;z-index:2;opacity:0;}.e41:hover{opacity:0.5;cursor:pointer;}.e41:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e42{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:306px;z-index:2;opacity:0;}.e42:hover{opacity:0.5;cursor:pointer;}.e42:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e43{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:357px;z-index:2;opacity:0;}.e43:hover{opacity:0.5;cursor:pointer;}.e43:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e44{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:408px;z-index:2;opacity:0;}.e44:hover{opacity:0.5;cursor:pointer;}.e44:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e45{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:459px;z-index:2;opacity:0;}.e45:hover{opacity:0.5;cursor:pointer;}.e45:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e46{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:510px;z-index:2;opacity:0;}.e46:hover{opacity:0.5;cursor:pointer;}.e46:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e47{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:561px;z-index:2;opacity:0;}.e47:hover{opacity:0.5;cursor:pointer;}.e47:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e48{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:612px;z-index:2;opacity:0;}.e48:hover{opacity:0.5;cursor:pointer;}.e48:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e49{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:663px;z-index:2;opacity:0;}.e49:hover{opacity:0.5;cursor:pointer;}.e49:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e50{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:714px;z-index:2;opacity:0;}.e50:hover{opacity:0.5;cursor:pointer;}.e50:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e51{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:766px;z-index:2;opacity:0;}.e51:hover{opacity:0.5;cursor:pointer;}.e51:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e52{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:817px;z-index:2;opacity:0;}.e52:hover{opacity:0.5;cursor:pointer;}.e52:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e53{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:868px;z-index:2;opacity:0;}.e53:hover{opacity:0.5;cursor:pointer;}.e53:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e54{background-color:white;height:42px;width:48px;position:absolute;top:189px;left:919px;z-index:2;opacity:0;}.e54:hover{opacity:0.5;cursor:pointer;}.e54:active{background-color:red;opacity:0.75;cursor:pointer;}	
+	/*Period 6*/
+.e55{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:51px;z-index:2;opacity:0;}.e55:hover{opacity:0.5;cursor:pointer;}.e55:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e56{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:102px;z-index:2;opacity:0;}.e56:hover{opacity:0.5;cursor:pointer;}.e56:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e72{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:204px;z-index:2;opacity:0;}.e72:hover{opacity:0.5;cursor:pointer;}.e72:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e73{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:255px;z-index:2;opacity:0;}.e73:hover{opacity:0.5;cursor:pointer;}.e73:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e74{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:306px;z-index:2;opacity:0;}.e74:hover{opacity:0.5;cursor:pointer;}.e74:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e75{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:357px;z-index:2;opacity:0;}.e75:hover{opacity:0.5;cursor:pointer;}.e75:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e76{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:408px;z-index:2;opacity:0;}.e76:hover{opacity:0.5;cursor:pointer;}.e76:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e77{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:459px;z-index:2;opacity:0;}.e77:hover{opacity:0.5;cursor:pointer;}.e77:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e78{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:510px;z-index:2;opacity:0;}.e78:hover{opacity:0.5;cursor:pointer;}.e78:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e79{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:561px;z-index:2;opacity:0;}.e79:hover{opacity:0.5;cursor:pointer;}.e79:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e80{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:612px;z-index:2;opacity:0;}.e80:hover{opacity:0.5;cursor:pointer;}.e80:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e81{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:663px;z-index:2;opacity:0;}.e81:hover{opacity:0.5;cursor:pointer;}.e81:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e82{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:714px;z-index:2;opacity:0;}.e82:hover{opacity:0.5;cursor:pointer;}.e82:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e83{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:765px;z-index:2;opacity:0;}.e83:hover{opacity:0.5;cursor:pointer;}.e83:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e84{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:816px;z-index:2;opacity:0;}.e84:hover{opacity:0.5;cursor:pointer;}.e84:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e85{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:867px;z-index:2;opacity:0;}.e85:hover{opacity:0.5;cursor:pointer;}.e85:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e86{background-color:white;height:42px;width:48px;position:absolute;top:232px;left:918px;z-index:2;opacity:0;}.e86:hover{opacity:0.5;cursor:pointer;}.e86:active{background-color:red;opacity:0.75;cursor:pointer;}	
+	/*Period 7*/
+.e87{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:51px;z-index:2;opacity:0;}.e87:hover{opacity:0.5;cursor:pointer;}.e87:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e88{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:102px;z-index:2;opacity:0;}.e88:hover{opacity:0.5;cursor:pointer;}.e88:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e104{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:204px;z-index:2;opacity:0;}.e104:hover{opacity:0.5;cursor:pointer;}.e104:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e105{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:255px;z-index:2;opacity:0;}.e105:hover{opacity:0.5;cursor:pointer;}.e105:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e106{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:306px;z-index:2;opacity:0;}.e106:hover{opacity:0.5;cursor:pointer;}.e106:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e107{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:357px;z-index:2;opacity:0;}.e107:hover{opacity:0.5;cursor:pointer;}.e107:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e108{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:408px;z-index:2;opacity:0;}.e108:hover{opacity:0.5;cursor:pointer;}.e108:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e109{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:459px;z-index:2;opacity:0;}.e109:hover{opacity:0.5;cursor:pointer;}.e109:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e110{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:510px;z-index:2;opacity:0;}.e110:hover{opacity:0.5;cursor:pointer;}.e110:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e111{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:561px;z-index:2;opacity:0;}.e111:hover{opacity:0.5;cursor:pointer;}.e111:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e112{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:612px;z-index:2;opacity:0;}.e112:hover{opacity:0.5;cursor:pointer;}.e112:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e113{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:663px;z-index:2;opacity:0;}.e113:hover{opacity:0.5;cursor:pointer;}.e113:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e114{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:714px;z-index:2;opacity:0;}.e114:hover{opacity:0.5;cursor:pointer;}.e114:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e115{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:765px;z-index:2;opacity:0;}.e115:hover{opacity:0.5;cursor:pointer;}.e115:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e116{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:816px;z-index:2;opacity:0;}.e116:hover{opacity:0.5;cursor:pointer;}.e116:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e117{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:867px;z-index:2;opacity:0;}.e117:hover{opacity:0.5;cursor:pointer;}.e117:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e118{background-color:white;height:42px;width:48px;position:absolute;top:275px;left:918px;z-index:2;opacity:0;}.e118:hover{opacity:0.5;cursor:pointer;}.e118:active{background-color:red;opacity:0.75;cursor:pointer;}	
+	/*Period 8*/
+.e57{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:153px;z-index:2;opacity:0;}.e57:hover{opacity:0.5;cursor:pointer;}.e57:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e58{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:204px;z-index:2;opacity:0;}.e58:hover{opacity:0.5;cursor:pointer;}.e58:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e59{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:255px;z-index:2;opacity:0;}.e59:hover{opacity:0.5;cursor:pointer;}.e59:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e60{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:306px;z-index:2;opacity:0;}.e60:hover{opacity:0.5;cursor:pointer;}.e60:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e61{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:357px;z-index:2;opacity:0;}.e61:hover{opacity:0.5;cursor:pointer;}.e61:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e62{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:408px;z-index:2;opacity:0;}.e62:hover{opacity:0.5;cursor:pointer;}.e62:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e63{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:459px;z-index:2;opacity:0;}.e63:hover{opacity:0.5;cursor:pointer;}.e63:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e64{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:510px;z-index:2;opacity:0;}.e64:hover{opacity:0.5;cursor:pointer;}.e64:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e65{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:561px;z-index:2;opacity:0;}.e65:hover{opacity:0.5;cursor:pointer;}.e65:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e66{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:612px;z-index:2;opacity:0;}.e66:hover{opacity:0.5;cursor:pointer;}.e66:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e67{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:663px;z-index:2;opacity:0;}.e67:hover{opacity:0.5;cursor:pointer;}.e67:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e68{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:714px;z-index:2;opacity:0;}.e68:hover{opacity:0.5;cursor:pointer;}.e68:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e69{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:765px;z-index:2;opacity:0;}.e69:hover{opacity:0.5;cursor:pointer;}.e69:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e70{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:816px;z-index:2;opacity:0;}.e70:hover{opacity:0.5;cursor:pointer;}.e70:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e71{background-color:white;height:42px;width:48px;position:absolute;top:327px;left:867px;z-index:2;opacity:0;}.e71:hover{opacity:0.5;cursor:pointer;}.e71:active{background-color:red;opacity:0.75;cursor:pointer;}	
+	/*Period 9*/
+.e89{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:153px;z-index:2;opacity:0;}.e89:hover{opacity:0.5;cursor:pointer;}.e89:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e90{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:204px;z-index:2;opacity:0;}.e90:hover{opacity:0.5;cursor:pointer;}.e90:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e91{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:255px;z-index:2;opacity:0;}.e91:hover{opacity:0.5;cursor:pointer;}.e91:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e92{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:306px;z-index:2;opacity:0;}.e92:hover{opacity:0.5;cursor:pointer;}.e92:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e93{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:357px;z-index:2;opacity:0;}.e93:hover{opacity:0.5;cursor:pointer;}.e93:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e94{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:408px;z-index:2;opacity:0;}.e94:hover{opacity:0.5;cursor:pointer;}.e94:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e95{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:459px;z-index:2;opacity:0;}.e95:hover{opacity:0.5;cursor:pointer;}.e95:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e96{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:510px;z-index:2;opacity:0;}.e96:hover{opacity:0.5;cursor:pointer;}.e96:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e97{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:561px;z-index:2;opacity:0;}.e97:hover{opacity:0.5;cursor:pointer;}.e97:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e98{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:612px;z-index:2;opacity:0;}.e98:hover{opacity:0.5;cursor:pointer;}.e98:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e99{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:663px;z-index:2;opacity:0;}.e99:hover{opacity:0.5;cursor:pointer;}.e99:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e100{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:714px;z-index:2;opacity:0;}.e100:hover{opacity:0.5;cursor:pointer;}.e100:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e101{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:765px;z-index:2;opacity:0;}.e101:hover{opacity:0.5;cursor:pointer;}.e101:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e102{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:816px;z-index:2;opacity:0;}.e102:hover{opacity:0.5;cursor:pointer;}.e102:active{background-color:red;opacity:0.75;cursor:pointer;}	
+.e103{background-color:white;height:42px;width:48px;position:absolute;top:370px;left:867px;z-index:2;opacity:0;}.e103:hover{opacity:0.5;cursor:pointer;}.e103:active{background-color:red;opacity:0.75;cursor:pointer;}	

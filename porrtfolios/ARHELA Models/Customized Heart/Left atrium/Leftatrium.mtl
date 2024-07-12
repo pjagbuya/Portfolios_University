@@ -1,0 +1,14 @@
+# Blender MTL File: 'Leftatrium.blend'
+# Material Count: 1
+
+newmtl 01_-_Default
+Ns 5.800004
+Ka 1.000000 1.000000 1.000000
+Kd 0.600000 0.600000 0.600000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\Paul Josef\\Documents\\3D objects\\source\\HumanHeart-bump.jpg
+map_Kd C:\\Users\\Paul Josef\\Documents\\3D objects\\source\\HumanHeart-color.jpg

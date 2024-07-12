@@ -1,0 +1,334 @@
+<html>
+<head>
+
+<style>
+body{
+background-color:black;
+background:url(Images/Home.gif);
+background-position: center;
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+.Title{
+position:relative;
+text-align:center;
+background:url(Images/pic4.png),url(Images/pic5.png);
+background-repeat:no-repeat;
+background-position:left, right;
+background-size:contain;
+font-family:Comic Sans MS, Courier New;
+font-weight:bold;
+font-size:50px;
+color:#DDDDDD;
+text-shadow:black 2px 2px 2px,gray -2px -2px 2px, black 3px 3px 2px, black 4px 4px 2px, black 5px 5px 2px,gray -3px -3px 2px,gray -4px -4px 2px;
+z-index:100;
+
+}
+.ttext{
+
+}
+.ttext:Hover{
+position:relative;
+transform:rotate(3deg);
+text-shadow:white 2px 2px 2px,white -2px -2px 2px;
+cursor:pointer;
+}
+.whole{
+background-color:rgba(0,0,0,0.5);
+width:800px;
+
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+.synopsis{
+font-family:Comic Sans MS, Courier New;
+font-weight:bold;
+font-size:30px;
+color:#DDDDDD;
+text-shadow:black 2px 2px 2px, gray -2px -2px 2px;
+}
+.desc1{
+font-family:Courier New;
+font-weight:bold;
+font-size:15px;
+color:#DDDDDD;
+}
+span{
+color:#FFF000;
+}
+.credit{
+	margin:0 auto;
+	background-color:rgba(255,255,255,0.3);
+	text-align:left;
+	width:350px;
+	height:150px;
+}
+.position{
+	background-color:black;
+	color:yellow;
+	font-family:Comic Sans MS;
+	text-shadow:2px 2xp 2px 2px black, -2px -2px 2px 2px black;
+	font-weight:bold;
+}
+.list{
+position:relative;
+left:125px;
+top:-35px;
+}
+.gabout{
+font-family:Courier New;
+color:white;
+font-size:40px;
+}
+.vid{
+margin-bottom:100px;
+position:relative;
+top:-150px;
+z-index:2;
+}
+.Textandbg{
+position:relative;
+top:-240px;
+}
+@keyframes changepic{
+	10%{background:url("Images/bg1.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	20%{background:url("Images/bg2.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	30%{background:url("Images/bg3.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	40%{background:url("Images/bg4.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	50%{background:url("Images/bg5.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	60%{background:url("Images/bg6.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	70%{background:url("Images/bg7.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	80%{background:url("Images/bg8.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	90%{background:url("Images/bg9.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	1000%{background:url("Images/bg10.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+}
+	.pics{
+	align-items:center;
+	margin:0 auto;
+	background:url("Images/bg1.jpg");
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	border-size:2px;
+	border-color:black;
+	border-style:solid;
+	width:600px;
+	height:400px;
+	position:relative;
+	top:45px;
+	animation-name:changepic;
+	animation-delay:4s;
+	animation-duration: 30s;
+	animation-iteration-count:infinite;
+	}
+	@keyframes changepic2{
+	10%{background:url("Images/bg7.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	20%{background:url("Images/bg6.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	30%{background:url("Images/bg1.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	40%{background:url("Images/bg10.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	50%{background:url("Images/bg9.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	60%{background:url("Images/bg8.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	70%{background:url("Images/bg2.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	80%{background:url("Images/bg3.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	90%{background:url("Images/bg4.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+	1000%{background:url("Images/bg5.jpg");background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;}
+}
+	.pics2{
+	align-items:center;
+	margin:0 auto;
+	background:url("Images/bg7.jpg");
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	border-size:2px;
+	border-color:black;
+	border-style:solid;
+	width:600px;
+	height:400px;
+	position:relative;
+	top:45px;
+	animation-name:changepic2;
+	animation-delay:4s;
+	animation-duration: 30s;
+	animation-iteration-count:infinite;
+	}
+	.icons{
+	position:relative;
+	left:-100px;
+	background:url("Images/pic1.png"), url("Images/pic2.png"), url("Images/pic3.png");
+	background-repeat:no-repeat;
+	background-position:left,center,right;
+	background-size:contain;
+	width:1000px;
+	height:300px;
+	}
+	.icons2{
+	position:relative;
+	left:-100px;
+	background:url("Images/walk2.gif"), url("Images/walk1.gif"), url("Images/walk3.gif");
+	background-repeat:no-repeat;
+	background-position:left,center,right;
+	background-size:contain;
+	width:1000px;
+	height:300px;
+	}
+	.border{
+	width:1100px;
+	background-color:rgba(220,220,220,0.5);
+	}
+	.icon3{
+	width:800px;
+	height:350px;
+	background:url("Images/Window.gif");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+	}
+	mark{
+	color:white;
+	background-color:black;
+	}
+	.white{
+	color:white;
+	}
+</style>
+</head>
+
+<body bgcolor="brown">
+<center>
+
+	<div class="Title"><h1 class="Ttext">Sciamachy</h1></div>
+	<div class="border">
+	<div class="whole">
+	<div class="vid"><video height="600px" width="800px" controls autoplay loop><source src="Play.mp4"></video></div>
+<div class="Textandbg">	
+	<!--Synopsis-->
+	<div class="synopsis">Synopsis:</div>
+		<div class="pics2">
+		</div><br><br><br><br>
+<div class="desc1">
+Sciamachy is an adventure-styled, slash choice-based RPG game that follows the old <span>2D pixelated platform</span> with a <span>four-directional movement.</span> The user is given the opportunity to control their character--a young 12 year-old boy named Peter Lalonde, who finds himself troubled by the constant voice in his head and embarks on a quest to find his true self.
+</div>
+<!--What is Sciamachy-->
+<div class="synopsis">What is Sciamachy?</div>
+		<div class="pics">
+		</div><br><br><br><br>
+<div class="desc1">
+The title for the game Sciamachy originated from its word's defintion: an argument or conflict with an imaginary opponent. This was meant to symbolize the battles a person faces, and metaphorically speaking, when associating the voices in their heads as an entity to try to fight.  
+</div>
+
+<!--Purpose-->
+<div class="synopsis">What is the game's purpose?</div>
+<div class="desc1">
+The game's purpose is to bring awareness and give serious importance to mental illnesses, syndromes or disorders, and common cases such as depression or anxiety. 
+
+The game does not explicitly state information about the character directly, as it's intention is to let the user practice observational skills and analyzation of events and circumstances.
+</div>
+
+
+<!--About-->
+<div class="gabout">Game About:</div>
+<div class="synopsis">
+Who do we control?
+</div>
+<div class="icons"></div>
+<div class="desc1">
+Peter Lalonde, the character the user plays as, is diagnosed with chronic depression, or better yet, Dysthymia--which is a continuous form of depression that makes a person lose interest in their normal daily activities, have a lack of productivity, feel hopelessness and have extremely low self-esteem and regards for themselves.
+<br>
+<div class="icons2"></div>
+Though not explicitly stated, subtext from dialogues within interacting objects in the game subtly hints the multiple symptoms. This includes a problem of insomnia wherein he faces trouble of sleeping at night, traces of previous medicine usages, pessimistic comments on certain objects or events that reflect towards his habits, and a moody personality-switch that turns him passive-aggressive.
+<br>
+<div class="icon3"></div>
+His homelife is also evident from the clues left in his house's wake, that despite his negative perspectives, he used to be happy with his family when he was younger.
+<br><br><br>
+</div>
+
+<div class="credit">
+<span class="position">Game Director and Designer:</span> <mark>Lucy Clarisse Tan</mark><br>
+<span class="position">Co-Director:</span> <mark>Amos Yuan Yanan</mark><br>
+<span class="position">Concept Arts:</span> <mark>Adrian Luis Lubrin</mark><br>
+<span class="position">Graphic Designers:</span> <ul class="list"><li><mark>Lucy Clarisse Tan </li>
+ <li><mark>Bianca Zapeda</li>
+ <li><mark>Adrian Luis Lubrin</li>
+ <li><mark>Rica Mae Masangcay</li></mark><br>
+</ul>
+</div>
+</div>
+<a target="body" href="https://www.facebook.com/pauljosef.agbuya"><img width="100" height="100" src="Images/facebooklogo.png" alt=""></a>
+		<a target="body" href="https://www.youtube.com/channel/UCvacwQQVYm4lOf1roFIRmcQ?view_as=subscriber"><img width="100" height="100" src="Images/youtubelogo.png" alt="">
+		<a target="body" href="https://www.instagram.com/pjagbuya14/"><img width="100" height="100" src="Images/instagramlogo.png" alt="">
+		<br>
+		</p>
+		
+		<p align="center"><font size="2" face="Courier New" color="orange">Email Us</font><br>
+		<a target="blank" href=mailto:pjagbuya2@gmail.com><font size="2" face="Courier New"><span class="white">pjagbuya2@gmail.com</span></font></a><span class="white">&#47;</span>
+		<a target="blank" href=mailto:amdrapiza@gmail.com><font size="2" face="Courier New"><span class="white">amdrapiza@gmail.com</span></font></a>
+		</p>
+		
+		<p align="center">
+		<font size="2" face="Courier New" color="orange">Contact Us</font><br>
+		<font size="2" face="Courier New" color="Lightblue">639561661140</font><span class="white">&#47</span>
+		<font size="2" face="Courier New" color="Lightblue">639175412545</font>
+		</p>
+		
+		<p align="center">
+		<font size="2" face="Courier New" color="orange">Address</font><br>
+		<font size="2" face="Courier New" color="Lightblue">606 F. Blumentrit St., Brgy. Hulo</font><span class="white">&#47</span>
+		<font size="2" face="Courier New" color="Lightblue">Unit 102 Bamboo Grove Residence, Florante St., Brgy. Ilaya</font>
+		</p>
+		
+		<br>
+		</p>
+		<hr size="2" color="black">
+		<br>
+		<p align="center"><font color="white">&copy;2019 SCIAMACHY ENTERTAINMENT, INC. ALL RIGHTS RESERVED.<br>
+			All trademarks referenced herein are the properties of their respective owners.</font>
+		</p>	
+	</div>
+</div>	
+</center>
+</body>
+
+</html>

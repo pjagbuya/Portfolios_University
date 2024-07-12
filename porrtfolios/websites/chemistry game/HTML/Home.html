@@ -1,0 +1,113 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/Startdes.css">
+<title>Home</title>
+<style>
+@keyframes flick{
+50%{opacity 0.5}
+100%{opacity:1;}
+}
+body{
+	overflow:hidden;
+	background:url(Images/yellstain.png), url(Images/Radact.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:brown;
+}
+.block1{
+margin-left:200px;
+float:left;
+text-align:center;
+align-items:center;
+justify-content:center;
+z-index:1;
+}
+.block2{
+margin-left:50px;
+margin-top:8px;
+float:left;
+text-align:center;
+align-items:center;
+justify-content:center;
+z-index:1;
+}
+.header{
+	color:#FFF000;
+	text-shadow: black 2px 2px 4px;
+	font-size:40px;
+}
+
+.check{
+	color:#FFF000;
+	text-shadow:black 2px 2px 4px;
+	font-size:40px;
+}
+.rev{
+color:white;
+position:relative;
+top:100px;
+}
+.Test{
+color:white;
+position:relative;
+top:100px;
+}
+.logo{
+width:400px;
+height:400px;
+border-radius:50%;
+background:-webkit-linear-gradient(-90deg,black 80%,white );
+opacity:1;
+z-index:4;
+}
+.logo:hover{
+opacity:0.5;
+}
+.move{
+position:relative;
+top:-400px;
+z-index:2;
+}
+.move:hover{
+cursor:pointer;
+opacity:0.3;
+}
+.game{
+background:-webkit-linear-gradient(-90deg,black 80%,white );
+height:400px;
+width:500px;
+z-index:4;
+}
+.move2{
+position:relative;
+top:-400px;
+z-index:2;
+}
+.move2:hover{
+cursor:pointer;
+opacity:0.3;
+}
+</style>
+</head>
+<body bgcolor="brown">
+<div class="whole">
+<div class="block1">
+	<h1 class="header">Latest Review</h1>
+	<div class="logo">
+	<h2 class="rev">Reviewing An Educational Game</h2>
+	</div>
+	<a href="body.html"><img class="move" src="Images/logo.png" height="400px" width="400px"></a>
+</div>
+<div class="block2">		
+	<h1 class="check">Check this out!</h1>
+	<div class="game">
+	<h2 class="Test">Beta testers for our game</h2>
+	</div>
+	<a href="Game/Tutorial.html"><img class="move2" src="Images/housebg.png" height="400px" width="500px">
+</div>
+<div class="loadrect"><div class="loadcir"></div>
+<div class="load">Loading<div class="p1">.</div><div class="p2">.</div><div class="p3">.</div>
+</div></div>
+</div>
+</body>
+</html>
